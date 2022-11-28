@@ -37,14 +37,12 @@ body * {
 header {
   text-align: center;
   color: white;
-
   padding: 3.2rem;
-
   max-width: 46rem;
   margin: auto;
 }
 
-h2 {
+h1 {
   opacity: 0.9;
 }
 
@@ -56,13 +54,10 @@ header input {
   margin-top: 2rem;
   padding: 1rem 1.6rem;
   border-radius: 0.8rem;
-
   background-color: #444448;
   border: 0;
-
   width: 100%;
   color: white;
-
   font-size: 1.6rem;
 }
 
@@ -97,7 +92,6 @@ li {
   padding: 2.8rem;
   border-radius: 0.8rem;
   color: white;
-
   transition: all 0.2s;
 }
 
@@ -109,7 +103,6 @@ li .header {
 
 li i {
   font-size: 2.4rem;
-
   background-color: var(--primary-400);
   color: var(--gray-900);
   border-radius: 50%;
@@ -131,7 +124,6 @@ li a {
   margin-top: 1.6rem;
   font-weight: bold;
   text-decoration: none;
-
   transition: color 0.2s;
 }
 

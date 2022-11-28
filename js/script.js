@@ -6,10 +6,10 @@ filterElement.addEventListener("input", filterCards);
 function filterCards() {
   if (filterElement.value != "") {
     for (let card of cards) {
-      let title = card.querySelector("h1");
+      let title = card.querySelector("h2");
       title = title.textContent.toLowerCase();
-      let filterText = filterElement.toLowerCase();
-      if (title.includes(filterText)) {
+      let filterText = filterElement.value.toLowerCase();
+      if (!title.includes(filterText)) {
         card.style.display = "none";
       } else {
         card.style.display = "block";
