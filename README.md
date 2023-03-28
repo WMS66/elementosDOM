@@ -1,6 +1,8 @@
 # elementosDOM
 
-## Filtrando elementos na DOM com JavaScript
+
+
+### Filtrando elementos na DOM com JavaScript
 
 ### Estrutura para montar o cod. js do projeto.
 
@@ -32,4 +34,5 @@
 [Prof. MaykBrito](https://www.youtube.com/@MaykBrito/videos)
 
 <br/>
-Sigo aqui estudando um pouco mais de JavaScript DOM.
+
+#### Sigo aqui estudando um pouco mais de JavaScript DOM.
